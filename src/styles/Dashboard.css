@@ -1,0 +1,11 @@
+.bold-text {
+    font-weight: bold;
+  }
+.experience-items-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .experience-items-list li {
+    margin-bottom: 5px;
+  }

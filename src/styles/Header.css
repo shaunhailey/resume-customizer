@@ -1,0 +1,20 @@
+h2 {
+    color: #353744;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: baseline;
+    font-size: 18pt;
+    font-style: normal;
+    margin: 0;
+}
+header {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title {
+    color: #00ab44;
+    font-size: 14pt;
+    font-weight: 700;
+}

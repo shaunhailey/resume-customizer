@@ -1,0 +1,93 @@
+.roboto-body {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.category-title {
+    font-weight: 700;
+    font-size: '12pt';
+}
+
+.section-title {
+    color: #00ab44;
+    font-weight: 700;
+    font-size: '12pt';
+}
+
+h3 {
+    font-weight: 700;
+    font-size: '11pt';
+}
+
+.skill-item {
+    color: #353744;
+    font-weight: 400;
+    font-size: '10pt';
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.job-title {
+    font-style: italic;
+}
+
+.job-date {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    margin-bottom: 20px;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+.institution {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 4px;
+}
+
+.degree {
+    font-size: 16px;
+    font-style: italic;
+    padding-top: 4px;
+
+}
+
+@media print {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    .print-container {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header, h1, h2, h3, h4, p, ul, li {
+        page-break-inside: avoid;
+    }
+}
